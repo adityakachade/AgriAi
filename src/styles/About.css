@@ -34,7 +34,6 @@
 }
 
 .hero-container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
   position: relative;
@@ -91,7 +90,6 @@
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
