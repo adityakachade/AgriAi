@@ -74,7 +74,7 @@ const Home = () => {
         <div className="hero-overlay"></div>
         <div className="hero-container">
           <h1 className="hero-title">
-            AI-Powered Plant <span className="hero-highlight">Disease Detection with Ai</span>
+            AI-Powered Plant <span className="hero-highlight">Disease Detection</span>
           </h1>
           <p className="hero-subtitle">
             Identify plant diseases instantly with our advanced AI technology. Get expert treatment recommendations and keep your plants healthy.
