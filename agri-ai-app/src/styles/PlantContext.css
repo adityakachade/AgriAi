@@ -1,0 +1,123 @@
+/* Plant.css */
+
+.plant-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.plant-section {
+  margin-bottom: 2rem;
+}
+
+.plant-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #16a34a; /* Tailwind green-600 */
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #bbf7d0; /* Tailwind green-200 */
+  padding-bottom: 0.25rem;
+}
+
+.analysis-list,
+.favorites-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.analysis-item,
+.favorite-item {
+  background: #f9fafb; /* Tailwind gray-50 */
+  border: 1px solid #d1d5db; /* Tailwind gray-300 */
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.analysis-header,
+.favorite-header {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #065f46; /* Tailwind green-800 */
+}
+
+.analysis-timestamp,
+.favorite-addedAt {
+  font-size: 0.85rem;
+  color: #6b7280; /* Tailwind gray-500 */
+}
+
+.analysis-description,
+.favorite-description {
+  font-size: 1rem;
+  color: #374151; /* Tailwind gray-700 */
+}
+
+.analysis-actions,
+.favorite-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #15803d;
+}
+
+.btn.delete {
+  background-color: #dc2626;
+}
+
+.btn.delete:hover {
+  background-color: #b91c1c;
+}
+
+.btn.favorite {
+  background-color: #fbbf24;
+  color: #78350f;
+}
+
+.btn.favorite:hover {
+  background-color: #d97706;
+}
+
+.empty-state {
+  color: #9ca3af; /* Tailwind gray-400 */
+  font-style: italic;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .plant-container {
+    padding: 1rem;
+  }
+  .analysis-item,
+  .favorite-item {
+    padding: 1rem;
+  }
+}

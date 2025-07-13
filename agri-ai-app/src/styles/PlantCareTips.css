@@ -1,0 +1,75 @@
+.plant-care-tips {
+  background-color: white;
+  border: 1px solid #e5e7eb; /* gray-200 */
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.05); /* shadow-sm */
+  padding: 1.5rem; /* p-6 */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.plant-care-tips h3 {
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+  color: #111827; /* gray-900 */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.tip-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem; /* space-x-3 */
+}
+
+.tip-icon-wrapper {
+  padding: 0.5rem; /* p-2 */
+  border-radius: 0.5rem; /* rounded-lg */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background colors */
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.bg-yellow-100 {
+  background-color: #fef3c7;
+}
+
+.bg-green-100 {
+  background-color: #d1fae5;
+}
+
+/* Icon colors */
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-yellow-600 {
+  color: #ca8a04;
+}
+
+.text-green-600 {
+  color: #16a34a;
+}
+
+.tip-icon-wrapper svg {
+  width: 1.25rem; /* h-5 */
+  height: 1.25rem; /* w-5 */
+}
+
+/* Title and description */
+.tip-title {
+  font-weight: 500; /* font-medium */
+  color: #111827; /* gray-900 */
+  margin: 0;
+}
+
+.tip-description {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* gray-600 */
+  margin-top: 0.25rem; /* mt-1 */
+}

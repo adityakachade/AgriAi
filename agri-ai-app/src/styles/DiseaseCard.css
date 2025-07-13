@@ -1,0 +1,127 @@
+.disease-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.bug-icon {
+  color: #dc2626;
+}
+
+.symptom-icon {
+  color: #ef4444;
+}
+
+.treatment-icon {
+  color: #10b981;
+}
+
+.severity-badge {
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 9999px;
+}
+
+.high-severity {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.medium-severity {
+  background-color: #fef3c7;
+  color: #ca8a04;
+}
+
+.low-severity {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.default-severity {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
+
+.confidence-text {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.description {
+  color: #4b5563;
+  margin-bottom: 12px;
+}
+
+.card-sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .card-sections {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.section-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #9ca3af;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
