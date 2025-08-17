@@ -218,11 +218,11 @@ const About = () => {
             </div>
             <div className="tech-content">
               <h2 className="section-title">Cutting-Edge Technology</h2>
-              <p>
+              <p className="section-subtitle">
                 PlantDoc AI harnesses the power of deep learning, computer vision, and big data
                 analytics to provide precise, real-time plant disease diagnosis.
-              </p>
-              <p>
+            
+            
                 Our constantly evolving AI models are trained on millions of images and validated
                 by experts to ensure high accuracy and reliability.
               </p>

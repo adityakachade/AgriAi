@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Mail, Calendar, Camera, Edit3, Save, X, Award, TrendingUp, Heart } from 'lucide-react';
+import { User, Mail, Calendar, Camera, Edit3, Save, X, Award, TrendingUp, Heart, Leaf } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { usePlant } from '../contexts/PlantContext';
 import '../styles/Profile.css';
@@ -87,9 +87,7 @@ const Profile = () => {
               <User size={32} />
             )}
           </div>
-          <button className="camera-btn">
-            <Camera size={16} />
-          </button>
+
         </div>
 
         <div className="profile-info">
@@ -124,7 +122,8 @@ const Profile = () => {
             </div>
           ) : (
             <div>
-              <div className="name-edit">
+              {/* Profile Logo */}
+               <div className="name-edit">
                 <h1>{user?.name}</h1>
                 <button 
                   onClick={() => setIsEditing(true)} 

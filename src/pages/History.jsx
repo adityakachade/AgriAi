@@ -65,7 +65,7 @@ const History = () => {
         {/* Header */}
         <div className="history-header">
           <h1>Analysis History</h1>
-          <p>View and manage your plant health analysis history</p>
+                        <p className="section-subtitle">View and manage your plant health analysis history</p>
         </div>
 
         {/* Search & Filter */}
