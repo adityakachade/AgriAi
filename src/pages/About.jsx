@@ -219,7 +219,7 @@ const About = () => {
             <div className="tech-content">
               <h2 className="section-title">Cutting-Edge Technology</h2>
               <p className="section-subtitle">
-                PlantDoc AI harnesses the power of deep learning, computer vision, and big data
+                Agrihub AI harnesses the power of deep learning, computer vision, and big data
                 analytics to provide precise, real-time plant disease diagnosis.
             
             
